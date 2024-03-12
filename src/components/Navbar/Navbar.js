@@ -25,7 +25,7 @@ function Navbar() {
                 <li><Link to="" smooth={true} duration={600}>FAQ</Link></li>
             </ul>
             <div className="navEnd">
-                <Link to="container2" smooth={true} duration={600}>Pastga <PiArrowFatLinesDown /></Link>
+                <Link to="container2" smooth={true} duration={600} className='down'>Pastga <PiArrowFatLinesDown /></Link>
 
                 <FaBars className='bars' onClick={siteBar} />
                 <div className={`siteBar ${getBar ? 'visible' : ''}`}>
