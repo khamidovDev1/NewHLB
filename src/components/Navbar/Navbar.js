@@ -3,6 +3,7 @@ import "./Navbar.scss"
 import Logo from "../../images/logo.png"
 import { PiArrowFatLinesDown } from "react-icons/pi";
 import { FaBars } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 
 
@@ -18,20 +19,21 @@ function Navbar() {
                 <img src={Logo} alt="" />
             </div>
             <ul className='navMenu'>
-                <li><a href="">Asosiy</a></li>
-                <li><a href="">Malumotlar</a></li>
-                <li><a href="">Biz Bilan Bog'lanish</a></li>
-                <li><a href="">FAQ</a></li>
+                <li><Link to="container1" smooth={true} duration={600}>Asosiy</Link></li>
+                <li><Link to="container2" smooth={true} duration={600}>Malumotlar</Link></li>
+                <li><Link to="container3" smooth={true} duration={600}>Biz Bilan Bog'lanish</Link></li>
+                <li><Link to="" smooth={true} duration={600}>FAQ</Link></li>
             </ul>
             <div className="navEnd">
-                <a href="">Pastga <PiArrowFatLinesDown className='navEndIcon' /></a>
+                <Link to="container2" smooth={true} duration={600}>Pastga <PiArrowFatLinesDown /></Link>
+
                 <FaBars className='bars' onClick={siteBar} />
                 <div className={`siteBar ${getBar ? 'visible' : ''}`}>
                     <ul>
-                        <li>Asosiy</li>
-                        <li>Malumotlar</li>
-                        <li>aa</li>
-                        <li>dsa</li>
+                        <li><Link to="container1" smooth={true} duration={600}>Asosiy</Link></li>
+                        <li><Link to="container2" smooth={true} duration={600}>Malumotlar</Link></li>
+                        <li><Link to="container3" smooth={true} duration={600}>Biz Bilan Bog'lanish</Link></li>
+                        <li><Link to="" smooth={true} duration={600}>FAQ</Link></li>
                     </ul>
                 </div>
             </div>

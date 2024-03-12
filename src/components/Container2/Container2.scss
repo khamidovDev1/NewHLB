@@ -53,6 +53,11 @@
                 font-family: sans-serif;
                 transition: .4s;
 
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+
                 // font-size: 10px;
                 &:hover {
                     cursor: pointer;

@@ -74,6 +74,11 @@
                         letter-spacing: 3px;
                         transition: .4s;
 
+                        a {
+                            text-decoration: none;
+                            color: black;
+                        }
+
                         &:hover {
                             background-color: #cecece;
                         }

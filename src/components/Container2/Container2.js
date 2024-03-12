@@ -4,7 +4,7 @@ import { carData } from "../../staticData"
 
 function Container2() {
     return (
-        <div className='container2'>
+        <div className='container2' id='container2'>
 
             {
                 carData.map((item) => (
@@ -21,7 +21,7 @@ function Container2() {
                             <p>Tezlashuv vaqti: {item.speedDuration}</p>
                             <p>Batareya quvvati: {item.batteryPower}</p>
                             <p>Zaryadlasnish: {item.chargeTime}</p>
-                            <button>Koproq Malumot Olish</button>
+                            <button><a href="https://t.me/hlbmotors2023">Koproq Malumot Olish</a></button>
                         </div>
                     </div>
 

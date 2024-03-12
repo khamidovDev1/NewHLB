@@ -51,6 +51,8 @@
                 font-size: 15px;
                 font-weight: 100;
             }
+
+
         }
     }
 
@@ -90,10 +92,12 @@
                 transform: rotate(360deg);
             }
 
-            .bars {
-                display: none;
-            }
 
+
+        }
+
+        .bars {
+            display: none;
         }
     }
 }

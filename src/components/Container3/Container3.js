@@ -2,7 +2,7 @@ import React from 'react'
 import "./Container3.scss"
 function Container3() {
     return (
-        <div className='container3'>
+        <div className='container3' id='container2'>
             <div className='container3Div'>
                 <div className='container3DivHalf1'>
                     <div>
@@ -24,7 +24,7 @@ function Container3() {
                         <h2>Khamidovsamandar5@gmail.com</h2>
                     </div>
                     <div>
-                        <button>Batafsil</button>
+                        <button><a href="https://t.me/hlbmotors2023">Batafsil</a></button>
                     </div>
                 </div>
                 <div className='container3DivHalf2'>
