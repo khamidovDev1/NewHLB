@@ -21,7 +21,7 @@ function Container2() {
                             <p>Tezlashuv vaqti: {item.speedDuration}</p>
                             <p>Batareya quvvati: {item.batteryPower}</p>
                             <p>Zaryadlasnish: {item.chargeTime}</p>
-                            <button><a href="https://t.me/hlbmotors2023">Koproq Malumot Olish</a></button>
+                            <div><a href="https://t.me/hlbmotors2023">Koproq Malumot Olish</a></div>
                         </div>
                     </div>
 

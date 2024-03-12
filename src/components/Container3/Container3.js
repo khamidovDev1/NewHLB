@@ -24,7 +24,7 @@ function Container3() {
                         <h2>Khamidovsamandar5@gmail.com</h2>
                     </div>
                     <div>
-                        <button><a href="https://t.me/hlbmotors2023">Batafsil</a></button>
+                        <div><a href="https://t.me/hlbmotors2023">Batafsil</a></div>
                     </div>
                 </div>
                 <div className='container3DivHalf2'>
