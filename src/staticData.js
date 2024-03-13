@@ -1,5 +1,5 @@
 import BydE2 from "./images/bydE2.jpeg"
-import songL from "./images/songL.jpg"
+import songPlus from "./images/songPlus.png"
 export const carData = [
     {
         id: 1,
@@ -15,7 +15,7 @@ export const carData = [
     },
     {
         id: 1,
-        img: songL,
+        img: songPlus,
         title: "BYD Song L",
         distance: "662km",
         power: "313 Ot Kuchi",
