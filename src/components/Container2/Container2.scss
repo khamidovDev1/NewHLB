@@ -1,7 +1,8 @@
 .container2 {
     width: 100%;
-    height: 90vh;
+    height: fit-content;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
@@ -10,13 +11,16 @@
 
     .map {
         width: 90%;
-        height: 90%;
+        height: 90vh;
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        // background-color: red;
+        margin-top: 50px;
 
         .mapHalf1 {
-            width: 70%;
-            height: 100%;
+            width: 65%;
+            height: 85%;
             border-radius: 20px;
             overflow: hidden;
 
@@ -28,15 +32,15 @@
         }
 
         .mapHalf2 {
-            width: 30%;
-            height: 60%;
+            width: 33%;
+            height: 55%;
             background-color: rgba(240, 240, 240, 0.649);
             padding: 20px;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            border-top-right-radius: 20px;
-            border-bottom-right-radius: 20px;
+            border-radius: 20px;
+
 
             h1 {
                 font-family: sans-serif;
@@ -84,13 +88,19 @@
         height: auto;
         padding-top: 20px;
         padding-bottom: 20px;
+        margin-top: 0;
 
         .map {
             flex-direction: column;
+            justify-content: center;
             width: 100%;
+            height: fit-content;
+            // margin-top: 0;
 
             .mapHalf1 {
                 width: 90%;
+                height: 30vh;
+                border-radius: 10px 10px 0 0;
 
             }
 
@@ -99,7 +109,7 @@
                 width: 90%;
                 padding-top: 10px;
                 padding-bottom: 10px;
-                border-radius: 10px;
+                border-radius: 0 0 10px 10px;
             }
 
         }
