@@ -12,8 +12,8 @@ function Container3() {
                     </div>
                     <div>
                         <h1>Ish Vaqti:</h1>
-                        <h2>Du-ju: 9:00 - 17:00</h2>
-                        <h2>San-Yak 10:00 - 18:00</h2>
+                        <h2>Dushanba-juma: 9:00 - 17:00</h2>
+                        <h2>Shanba-Yakshanba: 10:00 - 18:00</h2>
                     </div>
                     <div>
                         <h1>Telefon:</h1>
@@ -24,7 +24,9 @@ function Container3() {
                         <h2>Khamidovsamandar5@gmail.com</h2>
                     </div>
                     <div>
-                        <div><a href="https://t.me/hlbmotors2023">Batafsil</a></div>
+                        <div>
+                            <a href="https://t.me/hlbmotors2023">Batafsil</a>
+                        </div>
                     </div>
                 </div>
                 <div className='container3DivHalf2'>
