@@ -20,7 +20,7 @@ function Container3() {
                         <h2>+998-99-226-22-46</h2>
                     </div>
                     <div>
-                        <h1>E-mail</h1>
+                        <h1>E-mail:</h1>
                         <h2>Khamidovsamandar5@gmail.com</h2>
                     </div>
                     <div>

@@ -47,15 +47,45 @@
                 &:nth-child(3) {
                     width: 80%;
                     display: flex;
-                    align-items: center;
-                    justify-content: space-between;
+                    // align-items: center;
+
+
+                    h1 {
+                        height: fit-content;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0;
+                    }
+
+                    // justify-content: space-between;
+                    h2 {
+                        margin-left: 10px;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        // justify-content: center;
+                    }
                 }
 
                 &:nth-child(4) {
                     width: 90%;
                     display: flex;
                     align-items: center;
-                    justify-content: space-between;
+                    // background-color: red;
+
+                    // justify-content: space-between;
+                    h1 {
+                        margin: 0;
+                    }
+
+                    h2 {
+                        margin-left: 10px;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+
+                    }
                 }
 
                 &:nth-child(5) {
@@ -132,6 +162,18 @@
                 div {
                     &:nth-child(3) {
                         margin-top: 10px;
+                        height: 30px;
+                        align-items: center;
+                    }
+
+                    &:nth-child(4) {
+                        margin-top: 5px;
+                        height: 30px;
+                        align-items: center;
+                    }
+
+                    &:nth-child(5) {
+                        margin-top: 20px;
                     }
 
                     h1 {
