@@ -172,6 +172,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                // background-color: red;
 
                 &:nth-child(2) {
                     width: 70%;
@@ -238,6 +239,39 @@
                 div {
                     ul {
                         align-items: center;
+                        // background-color: red;
+                    }
+                }
+            }
+
+
+        }
+
+        .footer_footer {
+            // background-color: red;
+
+            .footer_footerDiv {
+                // background-color: red;
+                width: 100%;
+
+                div {
+                    // background-color: red;
+
+                    p {
+                        font-size: 10px;
+                    }
+
+                    &:nth-child(2) {
+                        width: 100%;
+                        display: flex;
+                        // align-items: start;
+                        flex-direction: row;
+
+                        li {
+                            font-size: 10px;
+                        }
+
+
                     }
                 }
             }
