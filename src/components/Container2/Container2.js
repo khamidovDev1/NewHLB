@@ -5,28 +5,32 @@ import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper';
 
-import 'swiper/scss';
-import 'swiper/scss/pagination';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 
 function Container2() {
+
+
+
     return (
         <div className='container2' id='container2'>
             <Swiper
+                className='mySwiper'
                 modules={[Navigation, Pagination, Autoplay]}
-                slidesPerView={1}
+                slidesPerView={1.2}
                 navigation
                 autoplay={{ delay: 3000 }}
-            // pagination={{ clickable: true }}
+                pagination={{ clickable: true }}
             >
 
                 <div className='ss' id='container2'>
                     {
                         carData.map((item) => (
                             <div key={item.id} className='map'>
-                                <SwiperSlide >
+                                <SwiperSlide key={item.id} >
                                     <div className='mapHalf1'>
-                                        <img src={item.img} alt="" />
+                                        <img src={item.img} alt="BYDpicture" />
                                     </div>
                                     <div className='mapHalf2'>
                                         <h1>{item.title}</h1>
