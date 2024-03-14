@@ -18,8 +18,9 @@ function Container2() {
             <Swiper
                 className='mySwiper'
                 modules={[Navigation, Pagination, Autoplay]}
-                slidesPerView={1.2}
-                navigation
+                slidesPerView={1.1}
+                onEnded={true}
+                navigation={true}
                 autoplay={{ delay: 3000 }}
                 pagination={{ clickable: true }}
             >
