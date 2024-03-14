@@ -17,7 +17,7 @@ export const carData = [
     {
         id: 2,
         img: songPlus,
-        title: "BYD Song L",
+        title: "BYD Song Plus",
         distance: "662km",
         power: "313 Ot Kuchi",
         fullPower: "230k Wt",
@@ -29,7 +29,7 @@ export const carData = [
     {
         id: 3,
         img: BydE2,
-        title: "BYD Song L",
+        title: "BYD E2",
         distance: "662km",
         power: "313 Ot Kuchi",
         fullPower: "230k Wt",
@@ -41,7 +41,7 @@ export const carData = [
     {
         id: 4,
         img: songPlus,
-        title: "BYD Song L",
+        title: "BYD Song Plus",
         distance: "662km",
         power: "313 Ot Kuchi",
         fullPower: "230k Wt",
@@ -53,7 +53,7 @@ export const carData = [
     {
         id: 5,
         img: BydE2,
-        title: "BYD Song L",
+        title: "BYD E2",
         distance: "662km",
         power: "313 Ot Kuchi",
         fullPower: "230k Wt",
@@ -65,7 +65,7 @@ export const carData = [
     {
         id: 6,
         img: songPlus,
-        title: "BYD Song L",
+        title: "BYD Song Plus",
         distance: "662km",
         power: "313 Ot Kuchi",
         fullPower: "230k Wt",
