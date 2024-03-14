@@ -89,14 +89,16 @@
             justify-content: space-evenly;
             text-decoration: none;
             color: black;
+            letter-spacing: 2px;
 
             .navEndIcon {
                 transition: .4s;
+                transform: rotate(90deg);
             }
 
 
             &:hover .navEndIcon {
-                transform: rotate(360deg);
+                transform: rotate(450deg);
             }
 
 

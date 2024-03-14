@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import "./Navbar.scss"
 import Logo from "../../images/logo.png"
-import { PiArrowFatLinesDown } from "react-icons/pi";
 import { FaBars } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import { FcRight } from "react-icons/fc";
+
 
 
 
@@ -25,7 +26,7 @@ function Navbar() {
                 <li><Link to="" smooth={true} duration={600}>FAQ</Link></li>
             </ul>
             <div className="navEnd">
-                <Link to="container2" smooth={true} duration={600} className='down'>Pastga <PiArrowFatLinesDown /></Link>
+                <Link to="container2" smooth={true} duration={600} className='down'>Pastga <FcRight className='navEndIcon' /></Link>
 
                 <FaBars className='bars' onClick={siteBar} />
                 <div className={`siteBar ${getBar ? 'visible' : ''}`}>

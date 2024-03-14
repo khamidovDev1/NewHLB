@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Container1 from './components/Container1/Container1.js';
 import Container2 from './components/Container2/Container2.js';
 import Container3 from './components/Container3/Container3.js';

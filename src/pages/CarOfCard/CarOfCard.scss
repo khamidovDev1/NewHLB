@@ -72,36 +72,3 @@
         }
     }
 }
-
-@media (max-width:431px) {
-    .container2 {
-        height: auto;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-top: 0;
-
-        .swiper-slide {
-            flex-direction: column;
-            justify-content: center;
-            width: 100%;
-            height: fit-content;
-            // margin-top: 0;
-
-            .mapHalf1 {
-                width: 90%;
-                height: 25vh;
-                border-radius: 10px 10px 0 0;
-
-            }
-
-            .mapHalf2 {
-                height: 300px;
-                width: 90%;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                border-radius: 0 0 10px 10px;
-            }
-
-        }
-    }
-}
